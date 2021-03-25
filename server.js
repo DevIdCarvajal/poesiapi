@@ -3,8 +3,6 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 const urlDatabase = process.env.DATABASE_URL;
-console.log(urlDatabase);
-/*
 const mongoOptions = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -54,4 +52,3 @@ server.get("/poems/:idBook", function(req, res) {
 });
 
 server.listen(port, () => `Listening on ${port}`);
-*/
